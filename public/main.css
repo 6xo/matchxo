@@ -1,0 +1,28 @@
+body{
+  background-color: #f0f8ff;
+}
+h1{
+  text-align: center;
+  padding:10px 0;
+}
+h2{
+  padding: 0 0 12px 32px;
+}
+.main{
+  margin:0 68px;
+}
+table {
+  text-align:center;
+  vertical-align:middle;
+  font-size:22px;
+}
+table img{
+  margin-left: 16px;
+  padding: 3px;
+  width:36px;
+  height: auto;
+  background-color: #f0f0f0;
+}
+table img:hover{
+  background: #6495ed;
+}

@@ -1,39 +1,17 @@
-<!DOCUTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="utf-8">
-  <title><%= @match_title %></title>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-  <link href="main.css" rel="stylesheet" type="text/css">
-
-</head>
-<body>
-  <div class="main">
-    <h1><%= @match_title %></h1>
-    <% for i in 0..2 %>
-      <table class="table">
-        <h2><%= @title[i] %></h2>
-        <% card = @cards[i] %>
-        <% card.each do |username1,subname1,username2,subname2,video_url,start_time| %>
-          <tr>
-          <td><a href="<%= video_url + '&t=' + start_time%>"><img src="play_icon.png"></a></td>
-          <td><%= username1 %></td>
-          <td><%= subname1 %></td>
-          <td>vs</td>
-          <td><%= username2 %></td>
-          <td><%= subname2 %></td>
-          </tr>
-        <% end %>
-      </table>
+<h1><%= @match_title %></h1>
+<% for i in 0..2 %>
+  <table class="table">
+    <h2><%= @title[i] %></h2>
+    <% card = @cards[i] %>
+    <% card.each do |username1,subname1,username2,subname2,video_url,start_time| %>
+      <tr>
+      <td><a href="<%= video_url + '&t=' + start_time%>"><img src="play_icon.png"></a></td>
+      <td><%= username1 %></td>
+      <td><%= subname1 %></td>
+      <td>vs</td>
+      <td><%= username2 %></td>
+      <td><%= subname2 %></td>
+      </tr>
     <% end %>
-  </div>
-</body>
-</html>
+  </table>
+<% end %>

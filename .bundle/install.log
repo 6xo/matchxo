@@ -1,0 +1,10 @@
+# Logfile created on 2015-08-23 12:41:39 +0900 by logger.rb/41954
+I, [2015-08-23T12:41:39.720209 #47600]  INFO -- : 0:  backports (3.6.5) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/backports-3.6.5.gemspec
+I, [2015-08-23T12:41:39.720582 #47600]  INFO -- : 0:  multi_json (1.11.2) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/multi_json-1.11.2.gemspec
+I, [2015-08-23T12:41:39.720880 #47600]  INFO -- : 0:  rack (1.6.4) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.6.4.gemspec
+I, [2015-08-23T12:41:39.721154 #47600]  INFO -- : 0:  rack-protection (1.5.3) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.3.gemspec
+I, [2015-08-23T12:41:39.721432 #47600]  INFO -- : 0:  rack-test (0.6.3) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.3.gemspec
+I, [2015-08-23T12:41:39.721696 #47600]  INFO -- : 0:  tilt (2.0.1) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-2.0.1.gemspec
+I, [2015-08-23T12:41:39.721960 #47600]  INFO -- : 0:  sinatra (1.4.6) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.6.gemspec
+I, [2015-08-23T12:41:39.722234 #47600]  INFO -- : 0:  sinatra-contrib (1.4.6) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-contrib-1.4.6.gemspec
+I, [2015-08-23T12:41:39.722475 #47600]  INFO -- : 0:  bundler (1.5.1) from /Users/ktrsh18/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
